@@ -15,7 +15,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 
-@Controller('user') //base URL
+@Controller('user') //Base URL
 export class UserController {
   //Dependency Injection
   constructor(private readonly userService: UserService) {}
